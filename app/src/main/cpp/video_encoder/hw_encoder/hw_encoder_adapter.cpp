@@ -3,6 +3,11 @@
 
 #define LOG_TAG "HWEncoderAdapter"
 
+namespace {
+    // See MAX_ENCODER_Q_SIZE in androidmediaencoder.cc.
+    const int MAX_ENCODER_Q_SIZE = 3;
+}
+
 HWEncoderAdapter::HWEncoderAdapter(JavaVM *g_jvm, jobject obj) {
 	LOGI("HWEncoderAdapter()");
     outputBuffer = NULL;
@@ -235,6 +240,10 @@ void HWEncoderAdapter::encode() {
         fpsChangeTime = getCurrentTime();
     }
 
+    if (handler->getQueueSize() > MAX_ENCODER_Q_SIZE) {
+        LOGE("HWEncoderAdapter:dropped frame, encoder queue full");// See webrtc bug 2887.
+        return;
+    }
     int64_t curTime = getCurrentTime() - startTime;
     // need drop frames
     int expectedFrameCount = (int) ((getCurrentTime() - fpsChangeTime) / 1000.0f * frameRate + 0.5f);

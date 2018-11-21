@@ -99,6 +99,9 @@ public class MediaCodecSurfaceEncoder {
                 format.setInteger(MediaFormat.KEY_CAPTURE_RATE, frameRate);
                 format.setInteger(MediaFormat.KEY_I_FRAME_INTERVAL, IFRAME_INTERVAL);
                 mEncoder.configure(format, null, null, MediaCodec.CONFIGURE_FLAG_ENCODE);
+                if(null != mInputSurface) {
+                    mInputSurface.release();
+                }
                 mInputSurface = mEncoder.createInputSurface();
                 mEncoder.start();
 
@@ -310,6 +313,13 @@ public class MediaCodecSurfaceEncoder {
                         val = mBufferInfo.size;
 
                         encodedData.get(returnedData, 0, mBufferInfo.size);
+
+                        int type = returnedData[4] & 0x1F;
+                        if(type == 7) {
+                            //某些手机I帧前面会附带上SPS和PPS，剥离掉SPS和PPS，仅使用I帧
+                            returnedData = H264ParseUtil.splitIDRFrame(returnedData);
+                            val = returnedData.length;
+                        }
 
                         if (VERBOSE) {
                             Log.d(TAG,

@@ -15,3 +15,7 @@ int Handler::postMessage(Message* msg){
 //	LOGI("enqueue msg what is %d", msg->getWhat());
 	return mQueue->enqueueMessage(msg);
 }
+
+int Handler::getQueueSize() {
+	return mQueue->size();
+}

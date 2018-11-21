@@ -1,46 +1,46 @@
-The target system is: Android - 16 - armv7-a
-The host system is: Darwin - 16.7.0 - x86_64
+The target system is: Android - 1 - armv7-a
+The host system is: Darwin - 17.5.0 - x86_64
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_8578a"
-[1/2] Building C object CMakeFiles/cmTC_8578a.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_8578a
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_aaa7a"
+[1/2] Building C object CMakeFiles/cmTC_aaa7a.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_aaa7a
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_de7dc"
-[1/2] Building C object CMakeFiles/cmTC_de7dc.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_de7dc
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_a8ab9"
+[1/2] Building C object CMakeFiles/cmTC_a8ab9.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_a8ab9
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: armv7-none-linux-android
 Thread model: posix
-InstalledDir: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
-Found candidate GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Selected GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+InstalledDir: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Candidate multilib: thumb;@thumb
 Candidate multilib: armv7-a;@armv7
 Candidate multilib: armv7-a/thumb;@armv7@thumb
 Candidate multilib: .;
 Selected multilib: armv7-a/thumb;@armv7@thumb
- "/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_de7dc /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_de7dc.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+ "/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a8ab9 /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a8ab9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_de7dc"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_de7dc.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_de7dc]
+  ignore line: [Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_a8ab9"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_a8ab9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_a8ab9]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: armv7-none-linux-android]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-  ignore line: [Found candidate GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  ignore line: [Selected GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [InstalledDir: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: thumb]
   ignore line: [@thumb]
   ignore line: [Candidate multilib: armv7-a]
@@ -51,9 +51,9 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@armv7@thumb]
-  link line: [ "/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_de7dc /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_de7dc.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
-    arg [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
-    arg [--sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
+  link line: [ "/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a8ab9 /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a8ab9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm] ==> ignore
     arg [-pie] ==> ignore
     arg [-X] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -62,16 +62,18 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_de7dc] ==> ignore
-    arg [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [cmTC_a8ab9] ==> ignore
+    arg [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
     arg [--build-id] ==> ignore
     arg [--warn-shared-textrel] ==> ignore
     arg [--fatal-warnings] ==> ignore
@@ -82,23 +84,23 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_de7dc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a8ab9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+    arg [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
   implicit libs: [dl;c;dl]
-  implicit dirs: [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit dirs: [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
   implicit fwks: []
 
 
@@ -107,9 +109,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_3076e"
-[1/2] Building C object CMakeFiles/cmTC_3076e.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_3076e
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_b8f56"
+[1/2] Building C object CMakeFiles/cmTC_b8f56.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_b8f56
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -121,9 +123,9 @@ Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.41114
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_b747c"
-[1/2] Building C object CMakeFiles/cmTC_b747c.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_b747c
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_247f2"
+[1/2] Building C object CMakeFiles/cmTC_247f2.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_247f2
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -135,9 +137,9 @@ Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.41114
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_aa6ae"
-[1/2] Building C object CMakeFiles/cmTC_aa6ae.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_aa6ae
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_e0415"
+[1/2] Building C object CMakeFiles/cmTC_e0415.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_e0415
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,44 +149,44 @@ Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.41114
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_56f07"
-[1/2] Building CXX object CMakeFiles/cmTC_56f07.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_56f07
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_0da7a"
+[1/2] Building CXX object CMakeFiles/cmTC_0da7a.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_0da7a
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_440b9"
-[1/2] Building CXX object CMakeFiles/cmTC_440b9.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_440b9
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_4cf0c"
+[1/2] Building CXX object CMakeFiles/cmTC_4cf0c.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_4cf0c
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: armv7-none-linux-android
 Thread model: posix
-InstalledDir: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
-Found candidate GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Selected GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+InstalledDir: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Candidate multilib: thumb;@thumb
 Candidate multilib: armv7-a;@armv7
 Candidate multilib: armv7-a/thumb;@armv7@thumb
 Candidate multilib: .;
 Selected multilib: armv7-a/thumb;@armv7@thumb
- "/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_440b9 /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_440b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+ "/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4cf0c /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4cf0c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_440b9"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_440b9.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_440b9]
+  ignore line: [Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_4cf0c"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_4cf0c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_4cf0c]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: armv7-none-linux-android]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-  ignore line: [Found candidate GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  ignore line: [Selected GCC installation: /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [InstalledDir: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: thumb]
   ignore line: [@thumb]
   ignore line: [Candidate multilib: armv7-a]
@@ -195,9 +197,9 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@armv7@thumb]
-  link line: [ "/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_440b9 /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_440b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
-    arg [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
-    arg [--sysroot=/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
+  link line: [ "/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4cf0c /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4cf0c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm] ==> ignore
     arg [-pie] ==> ignore
     arg [-X] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -206,16 +208,18 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_440b9] ==> ignore
-    arg [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
-    arg [-L/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [cmTC_4cf0c] ==> ignore
+    arg [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
     arg [--build-id] ==> ignore
     arg [--warn-shared-textrel] ==> ignore
     arg [--fatal-warnings] ==> ignore
@@ -226,7 +230,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_440b9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4cf0c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -236,19 +240,19 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+    arg [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> [/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
   implicit libs: [stdc++;m;dl;c;dl]
-  implicit dirs: [/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit dirs: [/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/xiaokai.zhan/soft/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/xiaokai.zhan/soft/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
   implicit fwks: []
 
 
@@ -257,9 +261,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_8fb09"
-[1/2] Building CXX object CMakeFiles/cmTC_8fb09.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_8fb09
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_8a0c1"
+[1/2] Building CXX object CMakeFiles/cmTC_8a0c1.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_8a0c1
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -324,9 +328,9 @@ Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.41114
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_31095"
-[1/2] Building CXX object CMakeFiles/cmTC_31095.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_31095
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_78056"
+[1/2] Building CXX object CMakeFiles/cmTC_78056.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_78056
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -391,9 +395,9 @@ Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.41114
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/xiaokai.zhan/book/workspace/android/as_video_recorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_762c0"
-[1/2] Building CXX object CMakeFiles/cmTC_762c0.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_762c0
+Run Build Command:"/Users/xiaokai.zhan/soft/sdk_4_android_studio/cmake/3.6.4111459/bin/ninja" "cmTC_9e295"
+[1/2] Building CXX object CMakeFiles/cmTC_9e295.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_9e295
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -13,6 +13,7 @@ public:
 	~Handler();
 
 	int postMessage(Message* msg);
+	int getQueueSize();
 	virtual void handleMessage(Message* msg){};
 };
 
