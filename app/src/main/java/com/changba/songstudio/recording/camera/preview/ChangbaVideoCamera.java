@@ -144,8 +144,8 @@ public class ChangbaVideoCamera {
 
 	@TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 	private CameraConfigInfo setUpCamera(final int id) throws CameraParamSettingException {
-		 forcePreviewSize_640_480();
-//		forcePreviewSize_1280_720();
+//		 forcePreviewSize_640_480();
+		forcePreviewSize_1280_720();
 		// printStackTrace(CameraLoader.class);
 		try {
 			// 1、开启Camera

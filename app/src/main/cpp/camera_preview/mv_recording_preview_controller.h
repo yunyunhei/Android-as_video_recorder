@@ -114,6 +114,7 @@ protected:
     void releaseCamera();
 
 protected:
+    bool isThreadCreateSucceed;
     bool isEncoding;
     VideoEncoderAdapter *encoder;
 

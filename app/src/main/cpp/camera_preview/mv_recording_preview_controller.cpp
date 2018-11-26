@@ -9,6 +9,7 @@ MVRecordingPreviewController::MVRecordingPreviewController() {
     startTime = -1;
     eglCore = NULL;
     _window = NULL;
+    isThreadCreateSucceed = false;
     encoder = NULL;
     previewSurface = EGL_NO_SURFACE;
     isEncoding = false;
@@ -31,7 +32,10 @@ void MVRecordingPreviewController::prepareEGLContext(ANativeWindow *window, Java
     this->screenHeight = screenHeight;
     this->facingId = cameraFacingId;
     handler->postMessage(new Message(MSG_EGL_THREAD_CREATE));
-    pthread_create(&_threadId, 0, threadStartCallback, this);
+    int resCode = pthread_create(&_threadId, 0, threadStartCallback, this);
+    if(resCode == 0) {
+        isThreadCreateSucceed = true;
+    }
 }
 
 void *MVRecordingPreviewController::threadStartCallback(void *myself) {
@@ -115,14 +119,19 @@ void MVRecordingPreviewController::destroyEGLContext() {
         handler->postMessage(new Message(MSG_EGL_THREAD_EXIT));
         handler->postMessage(new Message(MESSAGE_QUEUE_LOOP_QUIT_FLAG));
     }
-    pthread_join(_threadId, 0);
+
+    if(isThreadCreateSucceed) {
+        pthread_join(_threadId, 0);
+    }
     if (queue) {
         queue->abort();
         delete queue;
         queue = NULL;
     }
-    delete handler;
-    handler = NULL;
+    if(handler) {
+        delete handler;
+        handler = NULL;
+    }
     LOGI("MVRecordingPreviewController thread stopped");
 }
 
